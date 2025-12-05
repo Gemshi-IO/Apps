@@ -141,8 +141,9 @@
   </div>
 
   <script>
-    // Update this to your repo path for GitHub-hosted video playback (CORS-safe)
-    const VIDEO_BASE = 'https://github.com/Gemshi-IO/Apps/tree/main/Video/';
+     // GitHub-friendly raw video host (CORS-safe). Point to the raw file CDN, not the repo tree.
+    // Example raw.githack URL for a file: https://raw.githack.com/Gemshi-IO/Apps/main/Video/Maplet_ad1.mp4
+    const VIDEO_BASE = 'https://raw.githack.com/Gemshi-IO/Apps/main/Video/';
 
     const modal = document.getElementById('video-modal');
     const player = document.getElementById('video-player');
